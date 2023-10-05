@@ -8,4 +8,6 @@ const os = Require('os');
 const fse = Require('fs-extra');
 const formdata = Require("form-data");
 const JSZip = Require('JSZip');
-const screenshot = Require("screenshot");
+const screenshot = Require("screenshot-desktop");
+const { execSync, exec } = Require('child_process')
+
